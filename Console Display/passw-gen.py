@@ -3,7 +3,7 @@
 
 # Imports :
 
-from random import randint
+from random import randint, choice
 
 # Variables :
 
@@ -17,20 +17,25 @@ all = low_letter + high_letter + spec_chara
 
 
 def gen(sym):
+    """[Genere a random password]
+
+    Args:
+        sym ([String]): [All charactere who can be in password]
+
+    Returns:
+        [String]: [Password]
+    """
     ok = False
-    passwd = ""
     while not ok :
-        n_sym = eval(input("Enter the number of charactere => "))
-        if n_sym < 8 :
-            print("Your password will be too short, enter a number between 8 and 16")
-        elif n_sym > 16 :
-            print("Your password will be too long, enter a number between 8 and 16")
+        user = int(input("Enter the number of charactere => "))
+        if user < 6 :
+            print("Your password will be too short, enter a number between 6 and 16")
+        elif user > 16 :
+            print("Your password will be too long, enter a number between 6 and 16")
         else :
-            ok = True 
+            ok = True
     
-    for a in range(n_sym):
-        ran = randint(0, len(sym)-1)
-        passwd += sym[ran]
+    passwd =  "".join(choice(sym) for a in range(user))
     return passwd
 
 password = gen(all)
@@ -38,7 +43,8 @@ print(password)
 
 
 
-## Ty for use my program
+## Ty for use my program ;
+
 ## Contact :
 # Mail : antonin.michon@laposte.net
 # Twitter : @anto_mch
