@@ -1,9 +1,9 @@
 # Program Writen By Michon Antonin
-# Program while work on Python 3.9.7
+# Program work on Python 3.9.7
 
 # Imports :
 
-from random import randint, choice
+from random import choice
 
 # Variables :
 

@@ -1,5 +1,5 @@
 # Program writen by Michon Antonin
-# Python 3.9.7
+# This Program work on Python 3.9.7
 ########== You need tkinter module on your computer ==#######
 
 #== On linux : 
@@ -7,7 +7,7 @@
 
 ## Use pip on windows and mac [You can already use pip on linux, but package install is more easy]
 
-from random import randint, choice
+from random import choice
 from tkinter import *
 
 
