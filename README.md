@@ -6,13 +6,14 @@ For execute this code, you need the random module, and, for the Python Tkinter G
 
 # For install Tkinter on Linux :
 
+(Python For windows has tkinter module already installed.)
+
 sudo apt install python3-tk
 
-Python For windows has tkinter module already installed.
-
-Thank you for use this program.
 
 # Contact :
 
 Mail : antonin.michon@laposte.net
 Twitter : @anto_mch
+
+# Thank you for use this program.
