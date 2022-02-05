@@ -1,5 +1,5 @@
 # Password-Generator
-# Program written by Michon Antonin
+Program written by Michon Antonin
 Program to generate a random password. Program Console and graphic with Tkinter. Program not compiled.
 
 For execute this code, you need the random module, and, for the Python Tkinter GUI interface, you need tkinter module.
